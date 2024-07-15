@@ -8,6 +8,5 @@
     "requirements": [],
     "dependencies": [],
     "codeowners": ["@actstorms"],
-    "version": "1.0.0",
-    "translations": ["en","no","da","de","es","fi","fr","sv"]
+    "version": "1.0.0"
   }
