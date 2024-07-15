@@ -1,4 +1,9 @@
 <h3 align="center">Home Assistant Gamewire integration</h3>
+<p align="center">
+  <a href="https://github.com/actstorms/ha-gamewire">
+    <img src="https://brands.home-assistant.io/gamewire/icon.png" alt="Logo" height="200">
+  </a>
+</p>
 <details open="open">
   <summary>Table of Contents</summary>
 
