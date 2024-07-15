@@ -1,0 +1,33 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Koble til din Gamewire-instans",
+                "description": "Vennligst skriv inn dine konto detaljer for å koble til din Gamewire-instans.",
+                "data": {
+                    "email": "E-post",
+                    "password": "Passord"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Ugyldig innlogging",
+            "cannot_connect": "Kunne ikke koble til"
+        },
+        "abort": {
+            "already_configured": "Denne Gamewire-kontoen er allerede konfigurert"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "status": {
+                "name": "Instansstatus"
+            }
+        },
+        "switch": {
+            "power": {
+                "name": "Instanskraft"
+            }
+        }
+    }
+}

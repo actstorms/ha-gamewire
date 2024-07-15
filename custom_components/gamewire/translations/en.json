@@ -1,0 +1,33 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Connect to Your Gamewire Instance",
+                "description": "Please enter your credentials to connect to your Gamewire Instance.",
+                "data": {
+                    "email": "Email",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Invalid authentication",
+            "cannot_connect": "Failed to connect"
+        },
+        "abort": {
+            "already_configured": "This Gamewire account is already configured"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "status": {
+                "name": "Instance Status"
+            }
+        },
+        "switch": {
+            "power": {
+                "name": "Instance Power"
+            }
+        }
+    }
+}

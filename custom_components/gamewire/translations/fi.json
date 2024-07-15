@@ -1,0 +1,33 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Yhdistä Gamewire-instanssiisi",
+                "description": "Anna kirjautumistietosi yhdistääksesi Gamewire-instanssiisi.",
+                "data": {
+                    "email": "Sähköposti",
+                    "password": "Salasana"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Virheellinen tunnistautuminen",
+            "cannot_connect": "Yhteyden muodostaminen epäonnistui"
+        },
+        "abort": {
+            "already_configured": "Tämä Gamewire-tili on jo määritetty"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "status": {
+                "name": "Instanssin tila"
+            }
+        },
+        "switch": {
+            "power": {
+                "name": "Instanssin virta"
+            }
+        }
+    }
+}

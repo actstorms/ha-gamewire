@@ -1,0 +1,33 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Mit Ihrer Gamewire-Instanz verbinden",
+                "description": "Bitte geben Sie Ihre Anmeldeinformationen ein, um sich mit Ihrer Gamewire-Instanz zu verbinden.",
+                "data": {
+                    "email": "E-Mail",
+                    "password": "Passwort"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Ungültige Authentifizierung",
+            "cannot_connect": "Verbindung fehlgeschlagen"
+        },
+        "abort": {
+            "already_configured": "Dieses Gamewire-Konto ist bereits konfiguriert"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "status": {
+                "name": "Instanzstatus"
+            }
+        },
+        "switch": {
+            "power": {
+                "name": "Instanzstrom"
+            }
+        }
+    }
+}

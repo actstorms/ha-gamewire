@@ -1,0 +1,13 @@
+{
+    "domain": "gamewire",
+    "name": "Gamewire",
+    "config_flow": true,
+    "documentation": "https://github.com/actstorms/ha-gamewire",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/actstorms/ha-gamewire/issues",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": ["@actstorms"],
+    "version": "1.0.0",
+    "translations": ["en","no","da","de","es","fi","fr","sv"]
+  }

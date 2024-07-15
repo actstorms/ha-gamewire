@@ -1,0 +1,33 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Anslut till din Gamewire-instans",
+                "description": "Ange dina uppgifter för att ansluta till din Gamewire-instans.",
+                "data": {
+                    "email": "E-post",
+                    "password": "Lösenord"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Ogiltig autentisering",
+            "cannot_connect": "Misslyckades med att ansluta"
+        },
+        "abort": {
+            "already_configured": "Detta Gamewire-konto är redan konfigurerat"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "status": {
+                "name": "Instansstatus"
+            }
+        },
+        "switch": {
+            "power": {
+                "name": "Instanskraft"
+            }
+        }
+    }
+}
